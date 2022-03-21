@@ -1,0 +1,107 @@
+/* Flex Slider */
+
+.wpdev-slider {
+  position: relative;
+}
+
+.wpdev-slider.flexslider {
+  border: 0 !important;
+}
+
+.wpdev-slider .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.wpdev-slider .wpdevs-container {
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wpdev-slider .flex-direction-nav {
+  display: none !important;
+}
+
+.wpdev-slider .flex-control-nav {
+  bottom: 10px !important;
+}
+
+.wpdev-slider .flex-direction-nav a {
+  height: 50px;
+}
+
+.wpdev-slider .slider-details-container {
+  color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+.wpdev-slider .slider-details-container .subtitle {
+  margin-bottom: 15px;
+}
+
+.wpdev-slider .slider-details-container .slider-title {
+  color: #fff;
+  font-weight: 700;
+}
+
+.wpdev-slider .slider-details-container a {
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 5px 25px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.wpdev-slider .slider-details-container a:hover {
+  color: #fff;
+}
+
+.wpdev-slider .flexslider .slides {
+  padding: 0 !important;
+}
+
+.wpdev-slider .flex-control-paging li a.flex-active {
+  width: 25px !important;
+}
+
+.wpdev-slider .flex-control-nav li {
+  margin: 0 3px !important;
+}
+
+/* add */
+.wpdev-slider.style-1 .slider-details-container .link {
+  background-color: #1d4671;
+}
+
+.wpdev-slider.style-1 .flex-control-paging li a.flex-active {
+  background: rgb(182, 2, 2) !important;
+}
+
+.wpdev-slider.style-1 .flex-control-paging li a {
+  background: rgb(247, 247, 247);
+}
+
+/* Style 2 */
+
+.wpdev-slider.style-2 .slider-details-container .link {
+  background-color: #71481d;
+}
+
+.wpdev-slider.style-2 .flex-control-paging li a.flex-active {
+  background: rgb(2, 182, 14) !important;
+  width: 25px;
+}
+
+.wpdev-slider.style-2 .flex-control-paging li a {
+  background: rgb(247, 247, 247);
+  height: 10px;
+  width: 15px;
+  border-radius: 0;
+}
