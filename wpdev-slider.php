@@ -4,7 +4,7 @@
  * Plugin Name: WPDEV Slider
  * Plugin URI: http://www.wpdev.net.br/plugins/wpdev-slider
  * Description: This is WPDEV Slider Plugin, this plugin helps you to add slider on your website, just by adding a shortcode on your page/post. Come and meet the WPDEV Slider. Learn more about the developer: <a href="http://www.wpdev.net.br" target="_blank">http://www.wpdev.net.br</a>
- * Version: 1.0
+ * Version: 1.0.0
  * Requires at least: 5.6
  * Author: WPDev - Plugins Wordpress
  * Author URI: http://www.wpdev.net.br
